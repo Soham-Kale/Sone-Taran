@@ -1,0 +1,36 @@
+.table4 {
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    width: 560px;
+    height: 500px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+}
+
+.bold {
+    width: 87px;
+    height: 32px;
+    top: 406px;
+    left: 16px;
+    border-radius: 20px, 0px;
+    background-color: #4CFA7E;
+    border: 2px solid #4CFA7E
+}
+
+.bold span {
+    width: 51px;
+    height: 13px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 18.15px;
+    text-align: left;
+}
+
+.imag2 {
+    border: 1px solid black;
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+    border: 0.3px 0px 0px 0px;
+}

@@ -1,0 +1,99 @@
+.imgTags {
+    height: 12px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 40px;
+    /* margin-top: 5px; */
+}
+
+.imgTags2 {
+    height: 12px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 50%;
+    /* margin-top: 5px; */
+    text-align: end;
+}
+
+.combination {
+    display: flex;
+}
+
+.sizeOfBox2 {
+    margin: auto;
+    border: 1px solid black;
+    width: 343px;
+    height: 320px;
+    border-radius: 20px;
+    background-color: #FFFCF0;
+}
+
+.photos {
+    width: 85px;
+    height: 65px;
+    border-radius: 20px;
+    border: 0.3px solid black;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.last {
+    width: 300px;
+    height: 45px;
+    font-family: Inter;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 350;
+    line-height: 12.1px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.last span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 14.52px;
+    text-align: left;
+    color: black;
+}
+
+.btn5 {
+    margin-left: 10%;
+    width: 100px;
+    height: 40px;
+    background-color: #F7DF691A;
+    margin-bottom: 20px;
+    color: #FFD500;
+    border: 1px solid #FFD500;
+    border-radius: 15px;
+}
+
+.btn5 span {
+    width: 35px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 850;
+}
+
+.btn6 {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* margin-left: 20%; */
+    border: none;
+    background-color: #FFD500; 
+}
+
+.btn6 span {
+    width: 35px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 850;
+    color: #FFFFFF;
+}

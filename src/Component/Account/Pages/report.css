@@ -1,0 +1,81 @@
+.start {
+    width: 60px;
+    margin-top: 20%;
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    /* margin-left: 7%; */
+    margin-right: 7%;
+}
+
+.startDate {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+    background-color: white;
+    /* margin-left: 7%; */
+    margin-top: 20px;
+}
+
+.startDate span {
+    width: 74px;
+    height: 16px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.styleDiv {
+    margin-top: "-9px";
+}
+
+@media only screen and (min-width: 320px) {
+    .styleDiv {
+        margin-left: 37%;
+    }
+}
+
+.dates {
+    margin-bottom: 50px;
+}
+
+.secondBtn {
+    vertical-align: top;
+    position: absolute;
+    top: 80px;
+    margin-left: 55%;
+}
+
+.names1 {
+    margin: auto;    
+    width: 343px;
+    height: 55px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.buttonStyle {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    float: right;
+    background-color: #FFD500;
+    margin-top: -10px;
+    margin-right: 20px;
+    border: none;
+    padding-bottom: 15px;
+}
+
+.buttonStyle span {
+    width: 54px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+}

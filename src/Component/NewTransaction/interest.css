@@ -1,0 +1,73 @@
+.buttonStyle2 {
+    border: none;
+    background-color: white;
+    height: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.buttons button:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #FFD500;
+    color: #FFFFFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.buttons button span:hover {
+    width: 55px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 750;
+    text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+    .closeDate {
+        text-align: left;
+        margin-left: 38%;
+    }
+}
+
+.styleOfPara {
+    width: 349px;
+    height: 12px;
+    margin: auto;
+    font-family: Inter;
+    font-size: 11px;
+    line-height: 12.1px;
+    color: #FF0000;
+    padding-top: 40px;
+}
+
+.savaData {
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    /* margin-bottom: 40%; */
+    background-color: #FFD500;
+}
+
+.savaData span {
+    width: 34px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 850;
+    color: #FFFFFF;
+}

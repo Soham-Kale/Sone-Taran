@@ -1,0 +1,70 @@
+.month {
+    margin: auto;
+    width: 327px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    border: 0.5px solid black;
+}
+
+.flexBox {
+    text-align: center;
+}
+
+.closeDate {
+    margin-top: 40px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 300;
+    margin-right: 29%;
+}
+
+.calculate {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    width: 201px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.actulaAmount {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+}
+
+.cloLoan {
+    margin-left: 22%;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    /* margin-bottom: 30%; */
+    border-radius: 20px;
+    border: none;
+    background-color: #FFD500;
+}
+
+.cloLoan span {
+    width: 79px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 16.94px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+.month2 {
+    margin: auto;
+    width: 327px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 13px;
+    text-align: left;
+    border: none;
+    padding-left: 20px;
+    border: 0.5px solid black;
+    background-color: #FFD500;
+}
+
+.month2 span {
+    width: 32px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}

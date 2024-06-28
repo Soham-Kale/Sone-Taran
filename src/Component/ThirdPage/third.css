@@ -1,0 +1,126 @@
+.firstBox{
+    font-size: 62.5%;
+    /* font-size: 10rem;
+    font-size: 1rem; */
+}
+
+.h2 {
+    font-family: Poppins;
+    line-height: 5rem;
+    font-size: 6rem;
+    font-weight: 1000;
+    text-align: center;
+    height: 4.5rem;
+}
+
+.h2 span {
+    color: #FFD500;
+}
+
+.tag {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    font-family: Poppins;
+    text-align: center;
+    height: 2.7rem;
+    margin-bottom: 3rem;
+}
+
+/* .createPage {
+    font-size: 25rem;
+    font-weight: 600;
+    line-height: 35rem;
+    font-family: Poppins;
+    text-align: center;
+    height: 27rem;
+    margin-bottom: 30rem;
+} */
+
+.form-group2 {
+    margin: auto;
+    display: block;
+    width: 30rem;
+    height: 4.6rem;
+    margin-bottom: 1.2rem;
+    border-radius: 1rem;
+}
+
+.inpBox {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 0.3px bold black;
+}
+
+@media only screen and (min-width: 400px) {
+    .inpBox {
+        width: 300px;
+        height: 46px;
+    }
+}
+
+.para {
+    text-align: center;
+    height: 3.6rem;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 550;
+    line-height: 20rem; 
+}
+
+.para span {
+    color: #FFD500;
+    font-family: Poppins;
+    font-size: 18rem;
+    font-weight: 550;
+    line-height: 2rem;
+    text-align: center;
+}
+
+/* .btn {
+    height: auto;
+    width: 239rem;
+    height: 55rem;
+    background: #FFD500;
+    color: #FFFFFF;
+    margin-bottom: 10rem;
+    font-family: Inter;
+    font-size: 24rem;
+    font-weight: 700;
+    border-radius: 25rem ;
+    position: relative;
+    display: grid;
+    place-items: center;
+    left: 300rem;
+    margin-left: 250rem;
+} */
+
+
+/* .btn span {
+    width: 79rem;
+    height: 17rem;
+    font-family: Inter;
+    font-size: 20rem;
+    font-weight: 800;
+    line-height: 16.94rem;
+    color: #FFFFFF; 
+} */
+
+.h4 span {
+    color: #FFD500;
+}
+
+
+@media (max-width: 998px) {
+    .firstBox {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    .firstBox {
+        font-size: 45%;
+    }
+}
