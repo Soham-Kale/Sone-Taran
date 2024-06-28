@@ -1,0 +1,216 @@
+.stypeInput {
+    margin: auto;
+    width: 327px;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+}
+
+.multipleDate {
+    width: 237px;
+    height: 13px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 12%;
+    line-height: 12.1px;
+    text-align: center;
+}
+
+.tagsCombo {
+    display: flex;
+}
+
+.tableStyle {
+    height: 30px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 12.1px;
+    text-align: left;
+}
+
+.tableRow {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 327px;
+    height: 152px;
+    border-radius: 20px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+}
+
+.interestRate {
+    width: 323px;
+    height: 25px;
+    font-family: Inter;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 350;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.interestRate span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: center;
+    color: #000000;
+}
+
+.totalItem {
+    margin: auto;
+    width: 343px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 13px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+}
+
+.smallCircle {
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 52px;
+    position: absolute;
+    top: 0;
+    margin-top: 22px;
+    margin-left: 60%;
+    background-color: #D9D9D9;
+}
+
+.totalItem span {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 14.52px;
+}
+
+.transaction {
+    width: 90px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 7px;
+    text-align: center;
+    color: #000000;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 17%;
+    background-color: #FFD500;
+}
+
+.button span {
+    width: 115px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 850;
+    line-height: 16.94px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.rowWise {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 320px) {
+    .rowWise {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.transaction2 {
+    font-family: Inter;
+    font-size: 14px;
+    padding-top: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    line-height: 16.94px;
+    color: #000000;
+}
+
+.names3 {
+    margin: auto;
+    display: block;
+    width: 340px;
+    height: 58px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+    border-radius: 12px;
+}
+
+@media only screen and  (min-width: 320px){
+    .names3 {
+        margin: auto;
+    }
+}
+
+.paragra {
+    width: 200px;
+    font-family: Inter;
+    font-size: 15px;
+    text-indent: -85px;  /*moving text to left side */
+    font-weight: 450;
+    padding-top: 20px;
+}
+
+.darkCircle {
+    width: 60px;
+    height: 39px;
+    border-radius: 52px;
+    margin-left: 13px;
+    background-color: #88888888;
+}
+
+.flex {
+    display: flex;
+    padding-top: 9px;
+    padding-right: 10px;
+}
+
+.customeName4 {
+    padding-left: 30px;
+    width: 200px;
+}
+
+.amount2 {
+    padding-top: 7px;
+}
+
+.transBtn {
+    background-color: white;
+    border: none;
+    width: 155px;
+    height: 30px;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: #FFD500;
+}
+
+.transBtn span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16.94px;
+    text-align: left;
+    color: #FFFFFF;
+}
