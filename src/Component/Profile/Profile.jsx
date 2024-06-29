@@ -1,22 +1,22 @@
-import image from "./asset/soham.png"
+import { Box, Button, Typography } from '@mui/material'
+import { KeyboardBackspace, Add } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom'
-import "./profile.css"
-import { Box, Button } from '@mui/material'
-import { KeyboardBackspace, Add } from '@mui/icons-material'
+import image from "./asset/soham.png";
+import "./profile.css";
 
 function Profile() {
   const customer = useNavigate();
   function customerPage() {
-      customer('/CustomerPage');
+    customer('/CustomerPage');
   }
 
   return (
     <Box>
-      <h6 className='tag'><Button onClick={customerPage} sx={{
+      <Typography sx={{marginLeft: "-50%", marginTop: "20px"}} className='tag'><Button onClick={customerPage} sx={{
         color:"#FFD500", 
         marginRight: "-20px",
         "&:hover":{backgroundColor:'transparent'} 
-      }}><KeyboardBackspace/></Button> &nbsp; Profile</h6><br /> 
+      }}><KeyboardBackspace/></Button> &nbsp; Profile</Typography><br /> 
       <CustProfile/>
       <Table/>
       <Loan/>
@@ -29,7 +29,7 @@ function Profile() {
 function CustProfile() {
   return(
     <>
-      <Box className="names2">
+      <Box sx={{marginTop: "-20px"}} className="names2">
         <img className='sohamImg2' src={image} alt="soham" /> 
         <div style={{paddingBottom: "10px", marginLeft: "25%"}}> 
           <h6 className='customerName3'>Soham Kale</h6>

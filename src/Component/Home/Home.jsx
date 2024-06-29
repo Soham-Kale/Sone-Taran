@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import './home.css'
 import { Box, Grid, Typography } from '@mui/material';
+import './home.css'
 
 function Home() {
     return (
         <Box>
-            <h5 className='styleOfVarient'> Home</h5>
+            <Typography variant='h5' sx={{mt: "20px"}} className='styleOfVarient'> Home</Typography>
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} >
                 <Box flexDirection={"column"} sx={{padding:3}} >
                     <Box1 />
@@ -262,24 +262,24 @@ function CustomerInfo() {
     }
     return (
         <>
-            <p className='recentTran'>Recent Transactions</p>
-            <div className="names3">
+            <Typography variant='p' className='recentTran'>Recent Transactions</Typography>
+            <div className="name4">
                 <Box className='flex'>
                     <img className='darkCircle' />
                     <Typography className='customeName4'>Soham Kale</Typography>
                     <Typography className='paragra'>03-03-2024</Typography>
                     <Typography className='amount2'>10,000.00</Typography>
                 </Box>
-            </div> <br />
+            </div>
 
-            <div className="names3">
-                <div className='flex'>
+            <Box sx={{mt: "10px"}} className="name4">
+                <Box className='flex'>
                     <img className='darkCircle' />
                     <Typography className='customeName4'>Harsh Kale</Typography>
                     <p className='paragra'>03-03-2024</p>
                     <Typography className='amount2'>10,000.00</Typography>
-                </div>
-            </div>
+                </Box>
+            </Box>
 
             <Box className='bottom'>
                 <ul>

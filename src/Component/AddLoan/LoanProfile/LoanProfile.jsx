@@ -1,7 +1,7 @@
 import {Box, Button, Typography} from '@mui/material'
-import './loanProfile.css'
 import { KeyboardBackspace } from '@mui/icons-material'
 import { useNavigate } from 'react-router-dom';
+import './loanProfile.css'
 
 function LoanProfile() {
     const circle = useNavigate();

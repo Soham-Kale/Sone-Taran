@@ -36,12 +36,12 @@ function Account() {
             <Box5/>
             <Box6/>
             <Box className='bottom'>
-                <List>
+                <ul>
                     <li><button onClick={homePage}>Home</button></li>
                     <li><button onClick={customerPage}>Customers</button></li>
                     <li><button onClick={duesPage}>Dues</button></li>
                     <li><button onClick={accountPage}>Account</button></li>
-                </List>
+                </ul>
             </Box>
         </Box>
     )

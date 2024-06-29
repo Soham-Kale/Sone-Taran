@@ -19,7 +19,7 @@ function CustomerPage() {
 
   const account = useNavigate();
   function accountPage() {
-    account('/Profile');
+    account('/Account');
   }
   const home = useNavigate();
   function HomePage() {
@@ -46,7 +46,7 @@ function CustomerPage() {
           <li><button onClick={HomePage}>Home</button></li>
           <li><button onClick={CustomerPage}>Customers</button></li>
           <li><button onClick={duesPage}>Dues</button></li>
-          <li><button onClick={accountPage}>Profile</button></li>
+          <li><button onClick={accountPage}>Account</button></li>
         </ul>
       </Box>
     </Box>
@@ -64,7 +64,7 @@ function People() {
       <Button onClick={profilePage} className='styleForBtn' sx={{"&:hover":{backgroundColor:'transparent'}}}>
         <Box className="names">
             <img className='sohamImg' src={image} alt="soham" /> 
-            <Box sx={{marginLeft: "20%", }}>
+            <Box sx={{marginLeft: "20%", marginTop: "-6px"}}>
               <Typography className='customerName'>Soham Kale</Typography>
               <Typography className='number'>7728527871</Typography>
             </Box>
@@ -84,7 +84,7 @@ function People1() {
     <Button onClick={profilePage} className='styleForBtn'sx={{"&:hover":{backgroundColor:'transparent'}}} >
       <Box className="names">
             <img className='sohamImg' src={image} alt="soham" /> 
-            <Box sx={{marginLeft: "20%", }}>
+            <Box sx={{marginLeft: "20%", marginTop: "-6px"}}>
               <Typography className='customerName'>Harsh Kale</Typography>
               <Typography className='number'>8973542621</Typography>
             </Box>
@@ -104,7 +104,7 @@ function People2() {
     <Button  onClick={profilePage} className='styleForBtn' sx={{"&:hover":{backgroundColor:'transparent'}}}>
       <Box className="names">
             <img className='sohamImg' src={image} alt="soham" /> 
-            <Box sx={{marginLeft: "20%", }}>
+            <Box sx={{marginLeft: "20%", marginTop: "-6px"}}>
               <Typography className='customerName'>Om Dixit</Typography>
               <Typography className='number'>9274353652</Typography>
             </Box>

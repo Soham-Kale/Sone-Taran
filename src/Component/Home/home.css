@@ -10,6 +10,16 @@
     }
 }
 
+.name4 {
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 58px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 1px 1px rgb(111, 118, 125);
+    border-radius: 12px;
+}
+
 .styleForBox1 {
     width: 140px;
     height: 125px;

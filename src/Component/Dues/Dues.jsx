@@ -66,18 +66,18 @@ function Dues() {
             </Box> <br />
 
             <input className='search2' type="text" placeholder='    Search'/>
-            <h3 className='date'>16-03-2024</h3> 
+            <Typography sx={{marginBottom: "20px"}} className='date'>16-03-2024</Typography> 
 
             <People/> <br />
             <People2/> <br />
             <People3/>
 
-            <h3 className='date'>15-03-2024</h3> 
+            <Typography sx={{marginBottom: "20px"}} className='date'>15-03-2024</Typography> 
             <People/>
 
             <div className='bottom'>
                 <ul>
-                    <li><button>Home</button></li>
+                    <li><button  onClick={HomePage}>Home</button></li>
                     <li><button onClick={customerPage}>Customers</button></li>
                     <li><button onClick={duesPage}>Dues</button></li>
                     <li><button onClick={accountPage}>Account</button></li>
@@ -94,11 +94,11 @@ function People() {
                 <img className='sohamImg' src={image} alt="soham" /> 
                 <h6 className='customerName'>Soham Kale</h6>
                 <h6 className='amount'>10,000.00</h6>
-                <div className='createCircle'> 
+                {/* <Box sx={{marginTop: "-10px"}} className='createCircle'> 
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
-                </div>
+                </Box> */}
             </div>
         </>
     )
@@ -112,11 +112,11 @@ function People2() {
                 <img className='sohamImg' src={image} alt="soham" /> 
                 <h6 className='customerName'>Harsh Kale</h6>
                 <h6 className='amount'>10,000.00</h6>
-                <div className='createCircle'> 
+                {/* <div className='createCircle'> 
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
-                </div>
+                </div> */}
             </div>
         </>
     )
@@ -130,11 +130,11 @@ function People3() {
                 <img className='sohamImg' src={image} alt="soham" /> 
                 <h6 className='customerName'>Om Dixit</h6>
                 <h6 className='amount'>10,000.00</h6>
-                <div className='createCircle'> 
+                {/* <div className='createCircle'> 
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
                     <h3 className='circle'></h3>
-                </div>
+                </div>  */}
             </div>
         </>
     )
